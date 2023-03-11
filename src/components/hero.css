@@ -1,0 +1,52 @@
+.hero {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 255, 235, 1) 0%,
+    rgba(157, 7, 187, 1) 109%
+  );
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-responsive {
+  width: 40%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .img-responsive {
+    width: 60%;
+    height: auto;
+  }
+}
+
+.flip-horizontal-bottom:hover {
+	-webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+}

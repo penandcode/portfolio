@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 37px;
+    padding: 6px;
+    background:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(157, 7, 187, 1) 100%);
+}
+
+.rotate-center {
+	-webkit-animation: rotate-center 1s ease-in-out infinite alternate both;
+	        animation: rotate-center 1s ease-in-out infinite alternate both;
+}
+
+@keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
