@@ -10,8 +10,8 @@ const Hero = () => {
         alt="Lakshit"
       />
       <Box>
-        <Typography variant="h4">Lakshit</Typography>
-        <Box sx={{justifyContent:"center"}} className="flip-horizontal-bottom">
+        <Typography variant="h3">Lakshit</Typography>
+        <Box sx={{ justifyContent: "center" }} className="flip-horizontal-bottom">
           <Typography variant="p">FullStack Developer</Typography>
         </Box>
       </Box>

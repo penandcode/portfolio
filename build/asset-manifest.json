@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.96ffd126.css",
-    "main.js": "/static/js/main.33c78974.js",
+    "main.css": "/static/css/main.b80de0ba.css",
+    "main.js": "/static/js/main.62c0b345.js",
+    "static/media/Qtripstatic.png": "/static/media/Qtripstatic.9f1eb524afc9c7a4c05c.png",
+    "static/media/Qkart.png": "/static/media/Qkart.2f9b5f8ce17b2262506e.png",
+    "static/media/Qtripdynamic.png": "/static/media/Qtripdynamic.c128ecd13102ddf9671c.png",
+    "static/media/Xboard.png": "/static/media/Xboard.0a08558ee3c65028844b.png",
+    "static/media/XFlix.png": "/static/media/XFlix.5cad334a1b54fa66967b.png",
     "static/media/Myphoto.png": "/static/media/Myphoto.67c6b6acaebab25e8096.png",
+    "static/media/Admin UI.png": "/static/media/Admin UI.2065694a727df211a916.png",
     "index.html": "/index.html",
-    "main.96ffd126.css.map": "/static/css/main.96ffd126.css.map",
-    "main.33c78974.js.map": "/static/js/main.33c78974.js.map"
+    "main.b80de0ba.css.map": "/static/css/main.b80de0ba.css.map",
+    "main.62c0b345.js.map": "/static/js/main.62c0b345.js.map"
   },
   "entrypoints": [
-    "static/css/main.96ffd126.css",
-    "static/js/main.33c78974.js"
+    "static/css/main.b80de0ba.css",
+    "static/js/main.62c0b345.js"
   ]
 }

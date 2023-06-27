@@ -1,34 +1,25 @@
 import React from "react";
 import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  CardActions,
+  Box,
   Button,
+  Typography
 } from "@mui/material";
+import "./ProductCard.css";
 
-const ProjectCard = ({image, project, projectInfo, code, demo}) => {
+const ProjectCard = ({ image, project, projectInfo, code, demo }) => {
   return (
-    <Card sx={{ maxWidth: 300 }}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image={image}
-        title={project}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {project}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {projectInfo}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small" href={code}>Code</Button>
-        <Button size="small" href={demo}>Demo</Button>
-      </CardActions>
-    </Card>
+    <Box className="card">
+      <Box className="cardImage"><img src={image} alt={project} /></Box>
+      <Box>
+        <Box>{project}</Box>
+        <Box>
+          <Typography variant="p">
+            {projectInfo}
+          </Typography>
+        </Box>
+        <Button href={demo} target="_blank">Check it here</Button>
+      </Box>
+    </Box >
   );
 };
 
